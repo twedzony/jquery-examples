@@ -1,5 +1,5 @@
 $(function(){
 
-	$( ".poziom-jeden" ).find( "p" ).addBack().css("background-color", "yellow");
+	$( ".level-one" ).find( "p" ).addBack().css("background-color", "yellow");
 
 });

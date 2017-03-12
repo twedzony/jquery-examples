@@ -1,9 +1,9 @@
 $(function(){
 
-	$( "li" ).addClass( function( odliczanie ){
-		return "klasa-" + odliczanie;
+	$( "li" ).addClass( function( count ){
+		return "class-" + count;
 	} );
 
-	$( "ul" ).addClass("podswietlenie");
+	$( "ul" ).addClass("backlight");
 
 });
