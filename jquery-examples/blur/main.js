@@ -1,5 +1,7 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( " #test " ).blur(function(){
+		alert("blur activated");
+	});
 
 });
