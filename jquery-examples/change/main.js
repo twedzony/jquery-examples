@@ -1,5 +1,7 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "input").change(function() {
+		alert("something has changed")
+	});
 
 });

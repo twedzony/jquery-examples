@@ -1,5 +1,5 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( ".test" ).children("p").css("border","1px solid red");
 
 });
