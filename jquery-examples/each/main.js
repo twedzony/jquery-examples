@@ -1,7 +1,20 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "div" ).each(function(index,element){
+
+		if( $( element ).hasClass( "stop" ) ){
+			return false;
+		}	
+		else{
+			$( element ).addClass( "selected" );
+		}
+
+	});
 
 });
 
-// test synch.
+/*
+index = number of iteration
+
+element = "this"
+*/
