@@ -10,16 +10,29 @@
         <link rel="stylesheet" href="../../css/normalize.min.css">
         <link rel="stylesheet" href="../../css/main.css">
 
-        <!--[if lt IE 9]>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-        <![endif]-->
+        <style>
+
+            body, .foo{
+
+                padding: 20px;
+
+            }
+            
+                .foo,.btn-fadeout{
+
+                display: none;
+
+            }
+
+        </style>
     </head>
     <body>
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <button class="btn-fadein">FadeIn</button>
+        <button class="btn-fadeout">FadeOut</button>
+        <button class="btn-toggle">Toggle</button>
 
-        <div>Lorem ipsum Anim esse consectetur dolor sunt do in.</div>
+        <div class="foo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium reprehenderit dolorum minus recusandae sapiente provident. Animi quaerat velit, mollitia nisi?</div>  
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
