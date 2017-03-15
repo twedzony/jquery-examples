@@ -1,5 +1,5 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "li" ).eq( 2 ).css("color","blue"); 
 
 });
