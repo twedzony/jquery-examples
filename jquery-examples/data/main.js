@@ -1,5 +1,7 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( ".test" ).data( "example", "foo" );
+
+	alert($( ".test" ).data( "example" ));
 
 });

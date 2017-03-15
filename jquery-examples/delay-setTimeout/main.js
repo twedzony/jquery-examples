@@ -1,5 +1,9 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "p" ).delay(2000).fadeIn();
+
+	setTimeout(function(){
+		$( ".test" ).fadeOut();
+	},2000);
 
 });
