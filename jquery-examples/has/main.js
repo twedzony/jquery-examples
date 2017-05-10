@@ -1,5 +1,5 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "div" ).has( "p" ).css( "background-color", "yellow" );
 
 });
