@@ -1,5 +1,6 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "div" ).css("background-color", "yellow")
+	.find( "p" ).css("background-color", "red");
 
 });
