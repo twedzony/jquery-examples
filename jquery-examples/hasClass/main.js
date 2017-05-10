@@ -1,5 +1,8 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	if ($( "div" ).hasClass( "test" ))
+	{
+		alert("true");
+	}
 
 });
