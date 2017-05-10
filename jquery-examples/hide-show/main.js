@@ -1,5 +1,6 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "span" ).hide( 3000 );
+	$( "div" ).show( 2000 );
 
 });
