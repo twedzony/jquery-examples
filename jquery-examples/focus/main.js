@@ -1,5 +1,11 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "input" ).focus();
 
+	$( "input" ).focusin(function(){
+		$( this ).css( "border", "2px solid red");
+	});
+	$( "input" ).focusout(function(){
+		$( this ).css( "border", "none");
+	});
 });
