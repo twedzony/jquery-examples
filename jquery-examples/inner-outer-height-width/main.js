@@ -1,5 +1,8 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	alert($( ".test" ).innerWidth());
 
 });
+
+//optional parameters: true / value
+
