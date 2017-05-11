@@ -1,5 +1,9 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "div" ).hover(function(){
+		$( this ).css("background-color", "yellow");
+	},function(){
+		$( this ).css("background-color", "transparent");
+	});
 
 });
