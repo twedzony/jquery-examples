@@ -1,5 +1,6 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( ".test1" ).replaceWith( $ (".test2") );
+	$( ".test3" ).replaceAll( $ (".test4") );
 
 });
