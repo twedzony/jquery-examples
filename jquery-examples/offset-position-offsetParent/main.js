@@ -1,5 +1,8 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	alert($( "div" ).offset().left);
+	alert($( "div" ).position().top);
+
+	$( ".inner" ).offsetParent().css("background-color", "yellow");
 
 });
