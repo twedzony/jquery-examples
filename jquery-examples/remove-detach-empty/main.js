@@ -1,5 +1,17 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "#action" ).click(function(){
+
+var span = $( "span" );
+
+	$( "p" ).remove();
+
+	span.detach();
+	span.appendTo( "body" );
+
+	$( "div" ).empty();
+
+	});
+
 
 });
