@@ -1,5 +1,6 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "#check" ).removeProp("checked")
+	alert($( "#check" ).prop("checked"));
 
 });
