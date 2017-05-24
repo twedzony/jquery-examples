@@ -1,5 +1,11 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "a" ).click(function(){
+		$( "form" ).submit();
+	})
+
+	$( "form" ).submit(function(){
+		alert("FORM OK");
+	});
 
 });
