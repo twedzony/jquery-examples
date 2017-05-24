@@ -1,5 +1,15 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "button" ).click(function(){
+		alert(" BUTTON O K ! ");
+	})
 
+	$( "button" ).trigger("click");
+
+	$( "form" ).submit(function(){
+		alert("SUBMIT O K !");
+	})
+
+	$( "form" ).triggerHandler("submit");
+ 
 });
