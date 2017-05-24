@@ -1,5 +1,5 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "p" ).wrapAll( "<div style='border: 2px solid red;'> </div>" );
 
 });

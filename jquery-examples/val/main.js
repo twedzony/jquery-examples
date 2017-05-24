@@ -1,5 +1,11 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	alert($( "input" ).val());
+	
+	/*
+
+	$( "input" ).val("new value");
+
+	*/
 
 });
