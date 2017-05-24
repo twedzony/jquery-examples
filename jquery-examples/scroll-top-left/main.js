@@ -1,5 +1,7 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "span" ).click( function(){
+		alert( $( "div" ).scrollTop());
+	} );
 
 });
