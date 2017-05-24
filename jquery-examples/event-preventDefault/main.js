@@ -1,5 +1,7 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "a" ).click(function( event ){
+		event.preventDefault();''
+	});
 
 });
