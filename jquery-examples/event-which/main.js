@@ -1,5 +1,15 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "input" ).on( "keydown" ,function( event ){
+
+		$( ".test" ).text( event.which )
+
+	});
+
+	$( "input" ).on( "mousedown" ,function( event ){
+
+		$( ".test" ).text( event.which )
+
+	});
 
 });
