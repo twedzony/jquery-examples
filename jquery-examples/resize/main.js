@@ -1,5 +1,7 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( window ).resize( function(){
+		alert("window resized");
+	} );
 
 });
