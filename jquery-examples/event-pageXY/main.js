@@ -1,5 +1,7 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( document ).on("mousemove", function( event ){
+		$( ".test" ).text( "PositionX: " + event.pageX + " " + "PositionY: " + event.pageY ) 
+	} )
 
 });
