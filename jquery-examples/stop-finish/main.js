@@ -1,5 +1,15 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( ".action" ).click(function(){
+		$( "div" ).stop().slideToggle( 2000 );
+	});
+
+	$( ".stop" ).click(function(){
+		$( "div" ).finish();
+	});
+
+	$( "div" ).click(function(){
+		
+	});
 
 });
