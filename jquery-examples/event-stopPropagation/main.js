@@ -1,5 +1,12 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "div" ).click(function(){
+		alert("DIV CLICK!");
+	})
+
+	$( "a" ).click(function( event ){
+		event.stopPropagation();
+		alert("A CLICK!");
+	})
 
 });
