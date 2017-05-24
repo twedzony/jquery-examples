@@ -1,5 +1,5 @@
 $(function(){
 
-	$( "p" ).add( "div" ).css("background-color", "yellow");
+	$( "li" ).slice( 4, 6 ).css("background-color", "yellow");
 
 });
